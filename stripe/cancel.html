@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Annullato 😔</title>
+    <style>
+        :root {
+            /* Patente B Quiz primary colors */
+            --color-primary: #00BCD4; 
+            --color-secondary: #1565C0;
+            --color-text: #333;
+            --color-background: #f7f7f7;
+            --color-card: #ffffff;
+            --color-cancel: #D32F2F; /* Red for cancellation warning */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: var(--color-background);
+            text-align: center;
+        }
+        .container {
+            background-color: var(--color-card);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+        h1 {
+            color: var(--color-cancel); /* Cancellation color */
+            margin-bottom: 15px;
+            font-size: 2em;
+        }
+        p {
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: var(--color-secondary); /* Using the darker blue for navigation */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .home-link:hover {
+            background-color: #0d47a1;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento Annullato 😔</h1>
+        <p>La procedura di pagamento è stata annullata. Non è stato effettuato alcun addebito.</p>
+        <p>Se desideri riprovare o hai bisogno di aiuto, torna alla pagina principale.</p>
+        <!-- <a href="/" class="home-link">Riprova / Torna all'App</a> -->
+    </div>
+</body>
+</html>
