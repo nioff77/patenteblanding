@@ -40,5 +40,152 @@
         "sin": "හරස් මාර්ග අසල හෝ හරස් මාර්ග මත දිශාව වෙනස් කිරීම (හැරීම) තහනම්ය."
       }
     ]
+  },
+  "20260630115943": {
+    "questions": [
+      {
+        "img": "/img_sign/119.png",
+        "q": "Il segnale raffigurato presegnala un confine di Stato con obbligo di arrestarsi",
+        "a": false,
+        "id": 2122,
+        "en": "The depicted sign pre-signals a state border with an obligation to stop.",
+        "sin": "පෙන්වා ඇති සංඥාව නැවැත්වීමේ අනිවාර්යතාව සහිත රාජ්‍ය දේශසීමාවක් කල්තියා පෙන්වයි."
+      },
+      {
+        "img": "/img_sign/110.png",
+        "q": "Il segnale raffigurato è posto in corrispondenza di un percorso consentito al transito di pedoni e di biciclette",
+        "a": false,
+        "id": 2046,
+        "en": "The depicted sign is placed at a path where the transit of pedestrians and bicycles is permitted",
+        "sin": "නිරූපිත සංඥාව පදිකයන්ට සහ පාපැදිවලට ගමන් කිරීමට අවසර ඇති මාර්ගයක පිහිටා ඇත"
+      },
+      {
+        "img": "/img_sign/44.png",
+        "q": "Il segnale raffigurato preannuncia un incrocio in cui si deve dare precedenza a destra",
+        "a": true,
+        "id": 2220,
+        "en": "The depicted sign announces an intersection where you must give way to the right.",
+        "sin": "නිරූපිත සංඥාව මංසන්ධියක් නිවේදනය කරයි, එහිදී ඔබ දකුණට ඉඩ දිය යුතුය."
+      },
+      {
+        "q": "La sosta e la fermata sono vietate nelle curve e, fuori dei centri abitati e sulle strade urbane di scorrimento, anche in loro prossimità",
+        "a": true,
+        "id": 5416,
+        "en": "Parking and stopping are forbidden on curves and, outside urban areas and on urban through roads, also near them.",
+        "sin": "වක්‍ර මාර්ගවල රථගාල් කිරීම සහ නැවැත්වීම තහනම්ය, තවද ජනාවාස ප්‍රදේශවලින් පිටත සහ නාගරික ප්‍රධාන මාර්ගවල ඒවාට ආසන්නව ද තහනම්ය."
+      },
+      {
+        "q": "Se un autotreno intende svoltare a destra in una strada stretta, i conducenti degli altri veicoli debbono tener presente che potrebbe diminuire notevolmente la velocità",
+        "a": true,
+        "id": 4600,
+        "en": "If a truck-trailer combination intends to turn right into a narrow road, drivers of other vehicles must be aware that it might significantly reduce its speed.",
+        "sin": "ට්‍රක්-ට්‍රේලර් සංයෝජනයක් පටු මාර්ගයක දකුණට හැරවීමට අදහස් කරන්නේ නම්, අනෙකුත් වාහනවල රියදුරන් එය සැලකිය යුතු ලෙස වේගය අඩු කළ හැකි බව සැලකිල්ලට ගත යුතුය."
+      }
+    ]
+  },
+  "20260630120238": {
+    "questions": [
+      {
+        "img": "/img_sign/289.png",
+        "q": "I delineatori raffigurati si trovano prima di un attraversamento pedonale",
+        "a": false,
+        "id": 3607,
+        "en": "The depicted delineators are found before a pedestrian crossing.",
+        "sin": "පෙන්වා ඇති සීමා සලකුණු (delineators) පදික මාරුවකට පෙර දක්නට ලැබේ."
+      },
+      {
+        "q": "La patente di categoria A può essere conseguita, con accesso diretto, da chi non è già titolare di patente A2 da almeno 2 anni, solo se ha compiuto 24 anni di età",
+        "a": true,
+        "id": 6182,
+        "en": "The A category license can be obtained, with direct access, by those who have not held an A2 license for at least 2 years, only if they are 24 years of age or older.",
+        "sin": "A කාණ්ඩයේ බලපත්‍රය ලබා ගත හැක්කේ, සෘජු ප්‍රවේශය සමඟින්, අවම වශයෙන් වසර 2ක් A2 බලපත්‍රයක් නොතිබූ අයට පමණි, ඔවුන්ට වයස අවුරුදු 24ක් හෝ ඊට වැඩි නම් පමණි."
+      },
+      {
+        "q": "Per trainare un rimorchio leggero non occorre effettuare il collegamento elettrico",
+        "a": false,
+        "id": 5724,
+        "en": "To tow a light trailer, an electrical connection is not necessary.",
+        "sin": "සැහැල්ලු ට්‍රේලරයක් ඇදගෙන යාමට, විදුලි සම්බන්ධතාවක් අවශ්‍ය නොවේ."
+      },
+      {
+        "q": "E' vietato il sorpasso di veicoli fermi ai semafori quando, a tal fine è necessario spostarsi sul lato riservato all'altro senso di marcia",
+        "a": true,
+        "id": 5181,
+        "en": "It is forbidden to overtake vehicles stopped at traffic lights when, for this purpose, it is necessary to move to the side reserved for the other direction of travel.",
+        "sin": "විරුද්ධ දිශාවට වෙන් කර ඇති පැත්තට යාමට අවශ්‍ය වන විට, රථවාහන ලයිට්වල නැවතී ඇති වාහන ඉදිරියෙන් යෑම තහනම්ය."
+      },
+      {
+        "q": "La spia della temperatura dell'acqua di raffreddamento è di colore rosso",
+        "a": true,
+        "id": 5862,
+        "en": "The coolant temperature indicator light is red",
+        "sin": "සිසිලන ජලයේ උෂ්ණත්ව දර්ශක ආලෝකය රතු පාටයි"
+      }
+    ]
+  },
+  "20260630120457": {
+    "questions": [
+      {
+        "img": "/img_sign/37.png",
+        "q": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, possibili sbandamenti dei veicoli provenienti dal senso opposto",
+        "a": true,
+        "id": 1123,
+        "en": "The depicted sign warns that, in case of strong side wind, vehicles coming from the opposite direction may skid",
+        "sin": "පෙන්වා ඇති සංඥාවෙන්, අධික පාර්ශවීය සුළඟක් ඇති විට, ප්‍රතිවිරුද්ධ දිශාවෙන් එන වාහන ලිස්සා යාමට ඉඩ ඇති බව අනතුරු අඟවයි"
+      },
+      {
+        "img": "/img_sign/13.png",
+        "q": "I pannelli raffigurati servono ad indicare che ci si sta avvicinando al passaggio a livello",
+        "a": true,
+        "id": 789,
+        "en": "The depicted panels serve to indicate that one is approaching the level crossing",
+        "sin": "පෙන්වා ඇති පුවරු දුම්රිය හරස් මාර්ගයකට ළඟා වන බව දැක්වීමට සේවය කරයි."
+      },
+      {
+        "img": "/img_sign/5.png",
+        "q": "Il segnale raffigurato preannuncia una curva pericolosa a sinistra",
+        "a": true,
+        "id": 633,
+        "en": "The sign shown announces a dangerous curve to the left",
+        "sin": "පෙන්වා ඇති සංඥාවෙන් වමට භයානක වංගුවක් නිවේදනය කරයි"
+      },
+      {
+        "q": "Gli specchi retrovisori devono essere utilizzati per un controllo della strada dietro al veicolo, ogni volta che a un incrocio si intende proseguire diritto",
+        "a": false,
+        "id": 4694,
+        "en": "Rearview mirrors must be used to check the road behind the vehicle every time one intends to go straight at an intersection.",
+        "sin": "හරස් පාරකදී කෙළින්ම යාමට අදහස් කරන සෑම අවස්ථාවකදීම, වාහනය පිටුපස ඇති මාර්ගය පරීක්ෂා කිරීමට පසුපස දර්ශන කණ්ණාඩි භාවිතා කළ යුතුය."
+      },
+      {
+        "q": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, il certificato di proprietà",
+        "a": false,
+        "id": 2843,
+        "en": "Drivers of motor vehicles or motorcycles must show the certificate of ownership upon request of the officers",
+        "sin": "මෝටර් රථ හෝ යතුරුපැදි ධාවනය කරන රියදුරන් නිලධාරීන් ඉල්ලා සිටින විට අයිතිය පිළිබඳ සහතිකය පෙන්විය යුතුය"
+      }
+    ]
+  },
+  "20260630121527": {
+    "questions": [
+      {
+        "img": "/img_sign/49.png",
+        "q": "Il segnale raffigurato preannuncia una confluenza a destra",
+        "a": false,
+        "id": 2320,
+        "en": "The depicted sign indicates a merge to the right.",
+        "sin": "නිරූපිත සංඥාවෙන් දකුණට පිවිසීමක් (merge) පෙන්නුම් කරයි."
+      }
+    ]
+  },
+  "20260630122022": {
+    "questions": [
+      {
+        "q": "E' vietato sorpassare ciclisti o pedoni che occupano la carreggiata",
+        "a": false,
+        "id": 518,
+        "en": "It is forbidden to overtake cyclists or pedestrians occupying the roadway",
+        "sin": "මාර්ගය අල්ලාගෙන සිටින පාපැදිකරුවන් හෝ පදිකයින් අභිබවා යාම තහනම්ය"
+      }
+    ]
   }
 }
