@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Quiz Patente</title>
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+            --background-color: #f4f7f6;
+            --card-background: #ffffff;
+            --text-color: #333333;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.4;
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 520px;
+            width: 100%;
+            height: 580px; /* FIXED HEIGHT FOR DESKTOP/LAPTOP TO PREVENT STRETCHING */
+            background: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px 20px 20px;
+        }
+
+        /* HEADER & FULL-WIDTH BANNER STYLING */
+        header {
+            text-align: center;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #eeeeee;
+            margin-left: -20px;
+            margin-right: -20px;
+            flex-shrink: 0;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* MAIN QUIZ SECTION WRAPPER */
+        #quiz-section {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+
+        .quiz-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            font-size: 13px;
+            font-weight: bold;
+            background: #eef2f7;
+            padding: 8px 12px;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        #question-area {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .question-card {
+            display: none;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+
+        .question-card.active {
+            display: flex;
+        }
+
+        /* FIXED HEIGHT IMAGE HOLDER */
+        .image-container {
+            text-align: center;
+            margin-bottom: 12px;
+            background: #fafafa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 8px;
+            height: 160px;  /* Locked height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 144px;
+            object-fit: contain;
+        }
+
+        .no-image-placeholder {
+            color: #999999;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        /* LOCKED HEIGHT TEXT AREA WITH INSIDE SCROLLBAR IF EXCEEDED */
+        .question-text {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2c3e50;
+            height: 85px; /* Locked precise area height */
+            min-height: 85px;
+            max-height: 85px;
+            margin-bottom: 15px;
+            overflow-y: auto; /* Handles unusually long text cleanly inside without jumping */
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        /* ACTION BUTTONS AREA */
+        .btn-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+
+        .btn-answer {
+            padding: 14px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-true { background-color: var(--success-color); }
+        .btn-true:active { background-color: #1e7e34; }
+        .btn-false { background-color: var(--danger-color); }
+        .btn-false:active { background-color: #bd2130; }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: auto;
+            padding-top: 5px;
+            flex-shrink: 0;
+        }
+
+        .btn-nav {
+            padding: 8px 16px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        .btn-nav:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        /* RESULTS AREA */
+        .result-container {
+            display: none;
+            text-align: center;
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+
+        .result-score {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .result-count-info {
+            font-size: 15px;
+            color: #666666;
+            margin-bottom: 15px;
+        }
+
+        .pass { color: var(--success-color); }
+        .neutral { color: var(--warning-color); }
+        .retry { color: #5a6268; }
+
+        .outcome-box {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 15px 0;
+            padding: 12px;
+            border-radius: 8px;
+            line-height: 1.5;
+        }
+
+        .outcome-box.bg-pass { background-color: #e8f5e9; color: var(--success-color); border: 1px solid #c8e6c9; }
+        .outcome-box.bg-neutral { background-color: #fffde7; color: #f57f17; border: 1px solid #fff9c4; }
+        .outcome-box.bg-retry { background-color: #f8f9fa; color: #343a40; border: 1px solid #e2e3e5; }
+
+        .review-list { margin-top: 20px; text-align: left; }
+        .review-item {
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .review-item.correct { border-left: 5px solid var(--success-color); background: #f4fff4; }
+        .review-item.wrong { border-left: 5px solid var(--danger-color); background: #fff5f5; }
+
+        .review-content-wrapper { display: flex; gap: 12px; align-items: center; }
+        .review-img {
+            max-width: 70px;
+            max-height: 70px;
+            object-fit: contain;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 4px;
+        }
+
+        .error-message { color: var(--danger-color); text-align: center; font-weight: bold; margin: 20px 0; }
+
+        /* STRICT MOBILE VIEWPORT STABILITY CONTROLS */
+        @media (max-width: 480px) {
+            html, body {
+                height: 100%;
+                overflow: hidden;
+            }
+            body { 
+                padding: 0; 
+                align-items: flex-start; 
+            }
+            .container { 
+                padding: 0 15px 15px 15px; 
+                border-radius: 0; 
+                height: 100vh;
+                max-height: 100vh; 
+                box-shadow: none;
+            }
+            header { 
+                margin-left: -15px; 
+                margin-right: -15px; 
+                margin-bottom: 10px;
+            }
+            .quiz-info {
+                margin-bottom: 10px;
+            }
+            .image-container { 
+                height: 140px; 
+                margin-bottom: 10px; 
+            } 
+            .image-container img { 
+                max-height: 124px; 
+            }
+            .question-text { 
+                font-size: 15px; 
+                height: 75px;
+                min-height: 75px;
+                max-height: 75px;
+                margin-bottom: 10px; 
+            }
+            .btn-container {
+                margin-bottom: 10px;
+                gap: 10px;
+            }
+            .btn-answer { 
+                padding: 14px 10px; 
+                font-size: 18px; 
+            }
+            .review-content-wrapper { 
+                flex-direction: column; 
+                align-items: flex-start; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="banner.png" alt="Quiz Patente Banner" class="banner-img">
+    </header>
+
+    <div id="quiz-section">
+        <div class="quiz-info">
+            <div>Domanda: <span id="current-index">1</span>/<span id="total-questions">0</span></div>
+            <div>ID QUIZ: <span id="question-id">-</span></div>
+        </div>
+
+        <div id="question-area">
+            <div class="question-card active">
+                <div class="image-container" id="img-wrapper"></div>
+                <div class="question-text" id="quiz-question">Caricamento in corso...</div>
+                
+                <div class="btn-container">
+                    <button class="btn-answer btn-true" onclick="submitAnswer(true)">VERO</button>
+                    <button class="btn-answer btn-false" onclick="submitAnswer(false)">FALSO</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button class="btn-nav" id="btn-prev" onclick="navigate(-1)" disabled>Precedente</button>
+            <button class="btn-nav" id="btn-next" onclick="navigate(1)">Salta</button>
+        </div>
+    </div>
+
+    <div id="result-section" class="result-container">
+        <h2>Il tuo Punteggio</h2>
+        <div id="result-percentage" class="result-score">0%</div>
+        <div id="result-count-info" class="result-count-info">Risposte corrette: 0 su 0</div>
+        
+        <div id="outcome-box" class="outcome-box"></div>
+        
+        <button class="btn-nav" style="background-color: var(--primary-color); padding: 12px 30px; font-size: 16px; margin-bottom: 25px;" onclick="location.reload()">Ripeti Quiz</button>
+        
+        <div class="review-list" id="review-list">
+            <h3>Riepilogo Risposte:</h3>
+        </div>
+    </div>
+</div>
+
+<script>
+    let questionsList = [];
+    let currentIndex = 0;
+    let userAnswers = {};
+
+    function getUrlParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    async function initQuiz() {
+        const targetId = getUrlParam('id');
+        
+        try {
+            const response = await fetch('./quizData.json');
+            if (!response.ok) throw new Error("Impossibile caricare il file quizData.json.");
+            const quizData = await response.json();
+            
+            if (targetId && quizData[targetId]) {
+                questionsList = quizData[targetId].questions;
+            } else {
+                Object.keys(quizData).forEach(key => {
+                    questionsList = questionsList.concat(quizData[key].questions);
+                });
+            }
+
+            document.getElementById('total-questions').innerText = questionsList.length;
+            showQuestion(0);
+
+        } catch (error) {
+            console.error(error);
+            document.getElementById('quiz-question').innerHTML = `
+                <div class='error-message'>
+                    Errore nel caricamento dei dati.<br>
+                    Controlla il file 'quizData.json' e usa un server locale.
+                </div>`;
+        }
+    }
+
+    function showQuestion(index) {
+        if (questionsList.length === 0) return;
+        
+        currentIndex = index;
+        const qData = questionsList[index];
+        
+        document.getElementById('current-index').innerText = index + 1;
+        document.getElementById('question-id').innerText = getUrlParam('id');;
+        document.getElementById('quiz-question').innerText = qData.q;
+        
+        const imgWrapper = document.getElementById('img-wrapper');
+        
+        if (qData.img) {
+            imgWrapper.innerHTML = `<img id="quiz-image" src="${qData.img}" alt="Sign Image">`;
+        } else {
+            imgWrapper.innerHTML = `<span class="no-image-placeholder">Nessuna immagine per questo quesito</span>`;
+        }
+
+        document.getElementById('btn-prev').disabled = index === 0;
+        document.getElementById('btn-next').innerText = (index === questionsList.length - 1) ? "Termina" : "Salta";
+    }
+
+    function submitAnswer(answer) {
+        userAnswers[currentIndex] = answer;
+        if (currentIndex < questionsList.length - 1) {
+            showQuestion(currentIndex + 1);
+        } else {
+            showResults();
+        }
+    }
+
+    function navigate(step) {
+        let nextIndex = currentIndex + step;
+        if (nextIndex >= 0 && nextIndex < questionsList.length) {
+            showQuestion(nextIndex);
+        } else if (nextIndex === questionsList.length) {
+            showResults();
+        }
+    }
+
+    function showResults() {
+        document.getElementById('quiz-section').style.display = 'none';
+        
+        // Remove fixed height constraint from container on result page to enable content scrolling
+        document.querySelector('.container').style.height = 'auto';
+        document.querySelector('.container').style.maxHeight = 'none';
+        if(window.innerWidth <= 480) {
+            document.body.style.overflow = 'auto';
+            document.documentElement.style.overflow = 'auto';
+        }
+
+        const resultSection = document.getElementById('result-section');
+        resultSection.style.display = 'block';
+
+        let correctCount = 0;
+        const reviewList = document.getElementById('review-list');
+		const quizId = getUrlParam('id') || '';
+		reviewList.innerHTML = `
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #eeeeee; padding-bottom: 8px;">
+                <h3 style="font-size: 16px; color: #2c3e50; margin: 0;">Riepilogo Risposte</h3>
+                <span style="background: var(--primary-color); color: white; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; letter-spacing: 0.5px;">
+                    ID QUIZ: ${quizId}
+                </span>
+            </div>
+        `;
+
+        questionsList.forEach((qData, index) => {
+            const userAnswer = userAnswers[index];
+            const isCorrect = userAnswer === qData.a;
+            if (isCorrect) correctCount++;
+
+            const item = document.createElement('div');
+            item.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
+            
+            let statusText = userAnswer === undefined ? "Non Risposta" : (userAnswer ? "VERO" : "FALSO");
+            let correctText = qData.a ? "VERO" : "FALSO";
+            let imageHtml = qData.img ? `<img src="${qData.img}" class="review-img" alt="Sign">` : '';
+
+            item.innerHTML = `
+                <div class="review-content-wrapper">
+                    ${imageHtml}
+                    <div class="review-text-details">
+                        <strong>Domanda ${index + 1}:</strong> ${qData.q}<br>
+                        <span style="font-size:13px; display:inline-block; margin-top:5px;">
+                            Risposta: <b style="color:${isCorrect ? 'green':'red'}">${statusText}</b> | 
+                            Corretta: <b>${correctText}</b>
+                        </span>
+                    </div>
+                </div>
+            `;
+            reviewList.appendChild(item);
+        });
+
+        const totalQuestions = questionsList.length;
+        const scorePercentage = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+
+        document.getElementById('result-percentage').innerText = `${scorePercentage}%`;
+        document.getElementById('result-count-info').innerText = `Risposte corrette: ${correctCount} su ${totalQuestions}`;
+
+        const percentageElement = document.getElementById('result-percentage');
+        const outcomeBox = document.getElementById('outcome-box');
+
+        if (scorePercentage === 100) {
+            percentageElement.className = "result-score pass";
+            outcomeBox.className = "outcome-box bg-pass";
+            outcomeBox.innerText = "Eccellente! 🎉 Hai ottenuto un punteggio perfetto del 100%. Continua così, sei prontissimo!";
+        } else if (scorePercentage >= 50) {
+            percentageElement.className = "result-score neutral";
+            outcomeBox.className = "outcome-box bg-neutral";
+            outcomeBox.innerText = "Ottimo sforzo! Continua a esercitarti con costanza e raggiungerai grandi risultati 💪";
+        } else {
+            percentageElement.className = "result-score retry";
+            outcomeBox.className = "outcome-box bg-retry";
+            outcomeBox.innerText = "Nessun problema, ogni errore è un passo verso il miglioramento! Continua a provare e vedrai progressi passo dopo passo. ✨";
+        }
+    }
+
+    initQuiz();
+</script>
+
+</body>
+</html>
