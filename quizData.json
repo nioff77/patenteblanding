@@ -187,5 +187,40 @@
         "sin": "මාර්ගය අල්ලාගෙන සිටින පාපැදිකරුවන් හෝ පදිකයින් අභිබවා යාම තහනම්ය"
       }
     ]
+  },
+  "20260630130056": {
+    "questions": [
+      {
+        "img": "/img_sign/140.png",
+        "q": "Il pannello integrativo raffigurato indica di diminuire la distanza di sicurezza",
+        "a": false,
+        "id": 3890,
+        "en": "The supplementary panel shown indicates to decrease the safety distance",
+        "sin": "පෙන්වා ඇති අතිරරේක පුවරුව ආරක්ෂිත දුර අඩු කරන ලෙස දක්වයි"
+      }
+    ]
+  },
+  "20260630130117": {
+    "questions": [
+      {
+        "q": "Quando si circola nelle zone a velocità controllata inferiore a 30 km/h, non è obbligatorio l’uso del casco",
+        "a": false,
+        "id": 6083,
+        "en": "When driving in speed-controlled areas below 30 km/h, helmet use is not mandatory",
+        "sin": "පැයට කිලෝමීටර 30 ට අඩු වේග පාලන කලාපවල රිය පැදවීමේදී හිස්වැසුම් භාවිතය අනිවාර්ය නොවේ"
+      }
+    ]
+  },
+  "20260630153641": {
+    "questions": [
+      {
+        "img": "/img_sign/567.png",
+        "q": "Il veicolo in figura può effettuare un sorpasso anche superando la striscia continua centrale",
+        "a": false,
+        "id": 2464,
+        "en": "The vehicle in the figure can overtake even by crossing the continuous central line",
+        "sin": "රූපයේ ඇති වාහනයට අඛණ්ඩ මධ්‍ය රේඛාව හරහා ගොස් වුවද ඉස්සර කළ හැක"
+      }
+    ]
   }
 }
