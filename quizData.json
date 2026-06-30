@@ -1,0 +1,44 @@
+{
+  "20260630104029": {
+    "questions": [
+      {
+        "img": "/img_sign/101.png",
+        "q": "Il segnale raffigurato è un segnale di indicazione",
+        "a": false,
+        "id": 1920,
+        "en": "The sign shown is an indication sign.",
+        "sin": "දක්වා ඇති සංඥාව මාර්ගෝපදේශ සංඥාවකි."
+      },
+      {
+        "img": "/img_sign/134.png",
+        "q": "Il pannello integrativo raffigurato invita a diminuire la velocità per la presenza di macchine sgombraneve in funzione",
+        "a": true,
+        "id": 3816,
+        "en": "The supplementary panel shown invites you to reduce speed due to the presence of operating snowplows",
+        "sin": "ක්‍රියාත්මක වන හිම ඉවත් කරන යන්ත්‍ර (snowplows) ඇති බැවින් වේගය අඩු කිරීමට පෙන්වා ඇති අතිරේක පුවරුවෙන් ආරාධනා කරයි"
+      },
+      {
+        "img": "/img_sign/56.png",
+        "q": "Il segnale raffigurato si può trovare sia sulle strade urbane che su quelle extraurbane",
+        "a": true,
+        "id": 1228,
+        "en": "The depicted sign can be found on both urban and extra-urban roads.",
+        "sin": "නිරූපිත සංඥාව නාගරික මෙන්ම නාගරික නොවන මාර්ගවලද සොයාගත හැකිය."
+      },
+      {
+        "q": "Chiunque non abbia potuto evitare la caduta di materie viscide, deve deviare il traffico in attesa che l'ente proprietario della strada intervenga per ripristinare le condizioni ottimali",
+        "a": false,
+        "id": 5501,
+        "en": "Anyone who has been unable to prevent the spillage of viscous materials must divert traffic while waiting for the road owner to intervene to restore optimal conditions.",
+        "sin": "දුස්ස්රාවී ද්‍රව්‍ය වැටීම වැළැක්වීමට නොහැකි වූ ඕනෑම අයෙකු, මාර්ගයේ හිමිකරු ප්‍රශස්ත තත්ත්වයන් යථා තත්ත්වයට පත් කිරීමට මැදිහත් වන තෙක් ගමනාගමනය හරවා යැවිය යුතුය."
+      },
+      {
+        "q": "L'inversione del senso di marcia non è consentita in vicinanza o in corrispondenza degli incroci",
+        "a": true,
+        "id": 4618,
+        "en": "Making a U-turn is not permitted near or at intersections.",
+        "sin": "හරස් මාර්ග අසල හෝ හරස් මාර්ග මත දිශාව වෙනස් කිරීම (හැරීම) තහනම්ය."
+      }
+    ]
+  }
+}
