@@ -370,16 +370,25 @@
         const targetId = getUrlParam('id');
         
         try {
+            // 1. Force an error if the user didn't even provide an ID in the URL parameter
+            if (!targetId) {
+                throw new Error("Nessun ID quiz specificato nell'URL. (es. ?id=nome_quiz)");
+            }
+
             const response = await fetch('./quizData.json');
-            if (!response.ok) throw new Error("Impossibile caricare il file quizData.json.");
+            if (!response.ok) throw new Error("Impossibile caricare il file json.");
             const quizData = await response.json();
             
-            if (targetId && quizData[targetId]) {
-                questionsList = quizData[targetId].questions;
-            } else {
-                Object.keys(quizData).forEach(key => {
-                    questionsList = questionsList.concat(quizData[key].questions);
-                });
+            // 2. Force an error if the requested ID doesn't exist in your JSON data structure
+            if (!quizData[targetId]) {
+                throw new Error(`Il quiz con ID "${targetId}" non esiste nel database.`);
+            }
+
+            questionsList = quizData[targetId].questions;
+
+            // 3. Force an error if the quiz structure exists but contains no actual questions
+            if (!questionsList || questionsList.length === 0) {
+                throw new Error(`Il quiz "${targetId}" è vuoto o non contiene domande valide.`);
             }
 
             document.getElementById('total-questions').innerText = questionsList.length;
@@ -387,13 +396,20 @@
 
         } catch (error) {
             console.error(error);
-            document.getElementById('quiz-question').innerHTML = `
-                <div class='error-message'>
-                    Errore nel caricamento dei dati.<br>
-                    Controlla il file 'quizData.json' e usa un server locale.
-                </div>`;
+            
+			const errorMessage = `Il quiz con ID "${targetId}" non esiste nel database.`
+            // Clean error layout injection within the UI framework
+            document.getElementById('quiz-question').innerHTML = ``;
+                
+            // Safe layout cleanups for the error state
+            document.querySelector('.quiz-info').style.visibility = 'hidden';
+			document.querySelector('.btn-container').style.visibility = 'hidden';
+			document.querySelector('.navigation').style.visibility = 'hidden';
+            document.getElementById('img-wrapper').innerHTML = `
+                <span class="no-image-placeholder" style="color: #dc3545; font-weight: bold;">${errorMessage}</span>
+            `;
         }
-    }
+    }	
 
     function showQuestion(index) {
         if (questionsList.length === 0) return;
