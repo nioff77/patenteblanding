@@ -222,5 +222,801 @@
         "sin": "රූපයේ ඇති වාහනයට අඛණ්ඩ මධ්‍ය රේඛාව හරහා ගොස් වුවද ඉස්සර කළ හැක"
       }
     ]
+  },
+  "20260705130026": {
+    "questions": [
+      {
+        "img": "/img_sign/251.png",
+        "q": "Il segnale raffigurato può essere preceduto da un segnale di preavviso",
+        "a": true,
+        "id": 3520,
+        "en": "The depicted sign can be preceded by a warning sign.",
+        "sin": "පෙන්වා ඇති සංඥාවට පෙර දැනුම් දීමේ සංඥාවක් තිබිය හැකිය."
+      },
+      {
+        "q": "La revisione della patente di guida può essere disposta a seguito di guida in stato di ebbrezza o sotto l’effetto di sostanze stupefacenti",
+        "a": true,
+        "id": 6258,
+        "en": "The re-examination of the driving license can be ordered following driving under the influence of alcohol or drugs.",
+        "sin": "මත්පැන් හෝ මත්ද්‍රව්‍යවල බලපෑම යටතේ රිය පැදවීමෙන් පසුව රියදුරු බලපත්‍රය නැවත පරීක්ෂා කිරීමට නියෝග කළ හැකිය."
+      },
+      {
+        "q": "Il sorpasso a destra è consentito quando si percorre una strada extraurbana a senso unico",
+        "a": false,
+        "id": 5264,
+        "en": "Overtaking on the right is allowed when driving on a one-way extra-urban road",
+        "sin": "එක් දිශාවකට පමණක් ගමන් කරන නගරාන්තර මාර්ගයක රිය පදවන විට දකුණු පසින් ඉක්මවා යාමට අවසර ඇත"
+      },
+      {
+        "q": "La distanza di sicurezza deve essere almeno uguale ai metri che il veicolo percorre durante il tempo di reazione",
+        "a": true,
+        "id": 4335,
+        "en": "The safety distance must be at least equal to the meters the vehicle travels during the reaction time",
+        "sin": "ආරක්ෂිත දුර අවම වශයෙන් වාහනය ප්‍රතික්‍රියා කාලය තුළ ගමන් කරන දුරට සමාන විය යුතුය"
+      },
+      {
+        "q": "Le autocaravan (camper) sono rimorchi",
+        "a": false,
+        "id": 287,
+        "en": "Motorhomes (campers) are trailers",
+        "sin": "මෝටර්හෝම් (camper) යනු ට්‍රේලර් නොවේ"
+      }
+    ]
+  },
+  "20260705130135": {
+    "questions": [
+      {
+        "img": "/img_sign/502.png",
+        "q": "In una strada a senso unico di circolazione con la segnaletica indicata in figura per svoltare a sinistra bisogna rimanere nella corsia di destra",
+        "a": false,
+        "id": 2550,
+        "en": "In a one-way street with the signage shown in the figure, to turn left one must remain in the right lane.",
+        "sin": "රූපයේ දැක්වෙන මාර්ග සංඥා සහිත එක්-මාර්ග මාර්ගයක, වමට හැරවීමට දකුණු මංතීරුවේ රැඳී සිටිය යුතුය."
+      },
+      {
+        "img": "/img_sign/203.png",
+        "q": "Il segnale raffigurato si può trovare a completamento dei segnali di direzione",
+        "a": true,
+        "id": 2938,
+        "en": "The depicted sign can be found as a complement to direction signs",
+        "sin": "නිරූපිත සංඥාව දිශා සංඥා සම්පූර්ණ කිරීමක් ලෙස සොයාගත හැකිය"
+      },
+      {
+        "img": "/img_sign/574.png",
+        "q": "E' possibile cambiare corsia finché le strisce sono ancora discontinue (tratteggiate)",
+        "a": true,
+        "id": 2503,
+        "en": "It is possible to change lanes as long as the lines are still discontinuous (dashed).",
+        "sin": "ඉරි තවමත් අඛණ්ඩ නොවන (කඩ ඉරි සහිත) තාක් මංතීරු වෙනස් කළ හැකිය."
+      },
+      {
+        "q": "E’ consentito l’uso intermittente dei proiettori di profondità (a luce abbagliante), purché l’illuminazione esterna manchi o sia insufficiente",
+        "a": false,
+        "id": 5937,
+        "en": "The intermittent use of high-beam headlights is permitted, provided that the external lighting is absent or insufficient.",
+        "sin": "බාහිර ආලෝකය නොමැති විට හෝ ප්‍රමාණවත් නොවන විට අධි කදම්භ හෙඩ් ලයිට් (high-beam headlights) වරින් වර භාවිතය අවසර ඇත."
+      },
+      {
+        "q": "Sulle strade extraurbane principali i quadricicli leggeri possono transitare",
+        "a": false,
+        "id": 48,
+        "en": "Light quadricycles can transit on main extra-urban roads.",
+        "sin": "ප්‍රධාන නගරාන්තර මාර්ගවල සැහැල්ලු චතුර්රෝද රථවලට ගමන් කළ හැකිය."
+      }
+    ]
+  },
+  "20260705130345": {
+    "questions": [
+      {
+        "img": "/img_sign/90.png",
+        "q": "Il segnale raffigurato vale solo nelle ore notturne",
+        "a": false,
+        "id": 1671,
+        "en": "The depicted sign is valid only during nighttime hours",
+        "sin": "පෙන්වා ඇති සංඥාව වලංගු වන්නේ රාත්‍රී කාලයේදී පමණි"
+      },
+      {
+        "img": "/img_sign/639.png",
+        "q": "Nell'incrocio rappresentato nella figura il veicolo A deve dare la precedenza al tram e al veicolo B",
+        "a": true,
+        "id": 5007,
+        "en": "In the intersection shown in the figure, vehicle A must give way to the tram and vehicle B.",
+        "sin": "රූපයේ දැක්වෙන මංසන්ධියේ, A වාහනය ට්‍රෑම් රථයට සහ B වාහනයට ප්‍රමුඛතාවය දිය යුතුය."
+      },
+      {
+        "q": "I guanti da motociclisti possono avere imbottiture diverse a seconde della stagione",
+        "a": true,
+        "id": 6110,
+        "en": "Motorcycle gloves can have different paddings depending on the season.",
+        "sin": "යතුරුපැදි අත්වැසුම් කන්නය අනුව විවිධ පෑඩ් වලින් සමන්විත විය හැකිය."
+      },
+      {
+        "q": "I caschi da utilizzare alla guida dei ciclomotori non necessitano di omologazione",
+        "a": false,
+        "id": 6093,
+        "en": "Helmets to be used for riding mopeds do not require homologation",
+        "sin": "මෝපෙඩ් පැදවීමට භාවිතා කරන හිස්වැසුම් සඳහා අනුමත කිරීම් අවශ්‍ය නොවේ"
+      },
+      {
+        "q": "Nelle autostrade e strade extraurbane, è obbligatorio accendere i fari anabbaglianti anche di giorno o, in alternativa, le luci di marcia diurna",
+        "a": true,
+        "id": 5815,
+        "en": "On motorways and extra-urban roads, it is mandatory to switch on dipped-beam headlights even during the day or, alternatively, daytime running lights.",
+        "sin": "මහාමාර්ගවල සහ නගරයෙන් පිටත මාර්ගවල, දිවා කාලයේදී පවා ඩිප්-බීම් හෙඩ්ලයිට් හෝ විකල්පයක් ලෙස දිවා කාලයේ ධාවන ලයිට් දැල්වීම අනිවාර්ය වේ."
+      }
+    ]
+  },
+  "20260705130650": {
+    "questions": [
+      {
+        "img": "/img_sign/595.png",
+        "q": "L'isola di traffico in figura indica una parte della strada su cui non si può circolare",
+        "a": true,
+        "id": 2446,
+        "en": "The traffic island in the figure indicates a part of the road on which one cannot drive",
+        "sin": "රූපයේ ඇති රථවාහන දූපත ධාවනය කළ නොහැකි මාර්ගයේ කොටසක් පෙන්නුම් කරයි"
+      },
+      {
+        "q": "Gli specchi retrovisori, nel loro complesso, consentono al conducente di vedere l’intera area di strada dietro e intorno al veicolo",
+        "a": false,
+        "id": 4699,
+        "en": "Rearview mirrors, as a whole, allow the driver to see the entire road area behind and around the vehicle.",
+        "sin": "පසුපස දර්ශන කණ්ණාඩි, සමස්තයක් ලෙස, රියදුරුට වාහනය පිටුපස සහ වටපිටාවේ ඇති මුළු මාර්ග ප්‍රදේශය දැකීමට ඉඩ සලසයි."
+      },
+      {
+        "q": "Bisogna lasciare liberi solo gli incroci regolati da semaforo in caso di formazione di code di veicoli",
+        "a": false,
+        "id": 356,
+        "en": "Only traffic light-controlled intersections must be kept clear in case of vehicle queues.",
+        "sin": "වාහන පෝලිම් ඇති වූ විට සංඥා පහන් මගින් පාලනය වන හරස් මාර්ග පමණක් හිස්ව තැබිය යුතුය."
+      },
+      {
+        "q": "Una zona a traffico limitato è un'area sempre vietata al transito dei veicoli a motore",
+        "a": false,
+        "id": 97,
+        "en": "A limited traffic zone is an area always forbidden for motor vehicle transit.",
+        "sin": "සීමිත රථවාහන කලාපයක් යනු මෝටර් වාහන ගමනාගමනයට සැමවිටම තහනම් ප්‍රදේශයකි."
+      },
+      {
+        "q": "Dopo aver eseguito una prima manovra di sorpasso, in strade ad almeno due corsie per senso di marcia, è possibile eseguirne un' altra senza rientrare a destra, se non si crea intralcio",
+        "a": true,
+        "id": 5162,
+        "en": "After performing an initial overtaking maneuver, on roads with at least two lanes per direction of travel, it is possible to perform another one without returning to the right, if no obstruction is created.",
+        "sin": "ගමන් කරන දිශාවට අවම වශයෙන් මංතීරු දෙකක් ඇති මාර්ගවල, පළමු ඉදිරියෙන් යාමේ ක්‍රියාවලිය සිදු කිරීමෙන් පසු, බාධාවක් ඇති නොවේ නම්, නැවත දකුණට නොගොස් තවත් එකක් සිදු කළ හැකිය."
+      }
+    ]
+  },
+  "20260705130727": {
+    "questions": [
+      {
+        "img": "/img_sign/169.png",
+        "q": "Il segnale raffigurato si trova solo su strade a senso unico di circolazione",
+        "a": false,
+        "id": 3077,
+        "en": "The sign shown is found only on one-way roads",
+        "sin": "පෙන්වා ඇති සංඥාව දක්නට ලැබෙන්නේ ඒකපාර්ශවික මාර්ගවල පමණි"
+      },
+      {
+        "img": "/img_sign/40.png",
+        "q": "Il segnale raffigurato comporta di dare la precedenza ai veicoli che circolano sulla strada che si incrocia",
+        "a": true,
+        "id": 2150,
+        "en": "The depicted sign requires giving way to vehicles circulating on the intersecting road.",
+        "sin": "පෙන්වා ඇති සංඥාවෙන් හරස් මාර්ගයේ ගමන් කරන වාහනවලට ඉඩ දීම අවශ්‍ය වේ."
+      },
+      {
+        "img": "/img_sign/68.png",
+        "q": "Il segnale raffigurato vieta il transito a tutti gli autocarri carrozzati con furgone chiuso",
+        "a": false,
+        "id": 1414,
+        "en": "The depicted sign prohibits the transit of all closed-van trucks.",
+        "sin": "නිරූපිත සංඥාව, සංවෘත වෑන් රථයක් සහිත සියලුම ට්‍රක් රථවල ගමන් කිරීම තහනම් කරයි."
+      },
+      {
+        "img": "/img_sign/128.png",
+        "q": "Il pannello raffigurato (A) indica l'obbligo di proseguire diritto",
+        "a": false,
+        "id": 3757,
+        "en": "The depicted panel (A) indicates the obligation to continue straight.",
+        "sin": "පෙන්වා ඇති පුවරුව (A) කෙළින්ම ගමන් කිරීමේ වගකීම දක්වයි."
+      },
+      {
+        "img": "/img_sign/73.png",
+        "q": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilmente infiammabili",
+        "a": true,
+        "id": 1462,
+        "en": "The sign shown prohibits the transit of vehicles carrying highly flammable products.",
+        "sin": "පෙන්වා ඇති සංඥාව පහසුවෙන් ගිනි ගන්නා ද්‍රව්‍ය ප්‍රවාහනය කරන වාහනවල ගමනාගමනය තහනම් කරයි."
+      }
+    ]
+  },
+  "20260705155941": {
+    "questions": [
+      {
+        "img": "/img_sign/46.png",
+        "q": "Il segnale raffigurato indica l'andamento della strada principale",
+        "a": false,
+        "id": 2275,
+        "en": "The sign shown indicates the course of the main road",
+        "sin": "පෙන්වා ඇති සංඥාව ප්‍රධාන මාර්ගයේ ගමන් මග දක්වයි"
+      },
+      {
+        "img": "/img_sign/41.png",
+        "q": "Il segnale raffigurato obbliga ad arrestarsi soltanto in caso di incrocio con altri veicoli",
+        "a": false,
+        "id": 2184,
+        "en": "The depicted sign obliges to stop only in case of an intersection with other vehicles.",
+        "sin": "පෙන්වා ඇති සංඥාව, වෙනත් වාහන සමඟ මංසන්ධියකදී පමණක් නැවැත්වීමට බැඳී සිටියි."
+      },
+      {
+        "img": "/img_sign/19.png",
+        "q": "Il segnale raffigurato preannuncia un lungo rettilineo",
+        "a": false,
+        "id": 910,
+        "en": "The depicted sign indicates a long straight road ahead",
+        "sin": "නිරූපිත සංඥාවෙන් දිගු කෙලින් මාර්ගයක් ඉදිරියේ ඇති බව පෙන්නුම් කරයි"
+      },
+      {
+        "q": "Attraversare un passaggio a livello con manovra azzardata per guadagnare tempo, può essere un pericolo per molti individui, oltre che per il conducente",
+        "a": true,
+        "id": 4194,
+        "en": "Crossing a level crossing with a risky maneuver to save time can be a danger for many individuals, as well as for the driver",
+        "sin": "කාලය ඉතිරි කර ගැනීම සඳහා අවදානම් ක්‍රමයකින් දුම්රිය හරස් මාර්ගයක් තරණය කිරීම, රියදුරුට මෙන්ම තවත් බොහෝ පුද්ගලයන්ට ද අනතුරක් විය හැකිය"
+      },
+      {
+        "q": "In caso di nebbia fitta è opportuno mantenere in funzione l'indicatore di direzione sinistro",
+        "a": false,
+        "id": 6421,
+        "en": "In case of dense fog, it is advisable to keep the left turn signal on",
+        "sin": "ඝන මීදුමක් පවතින විට, වම් හැරවුම් සංඥා ලාම්පුව ක්‍රියාත්මකව තැබීම සුදුසුය"
+      }
+    ]
+  },
+  "20260705160013": {
+    "questions": [
+      {
+        "img": "/img_sign/140.png",
+        "q": "Il pannello integrativo raffigurato indica di diminuire la distanza di sicurezza",
+        "a": false,
+        "id": 3890,
+        "en": "The supplementary panel shown indicates to decrease the safety distance",
+        "sin": "පෙන්වා ඇති අතිරරේක පුවරුව ආරක්ෂිත දුර අඩු කරන ලෙස දක්වයි"
+      },
+      {
+        "img": "/img_sign/278.png",
+        "q": "Il cono raffigurato indica un ostacolo posto fuori della carreggiata",
+        "a": false,
+        "id": 3555,
+        "en": "The cone shown indicates an obstacle placed off the roadway",
+        "sin": "පෙන්වා ඇති කෝනය මාර්ගයෙන් පිටත තබා ඇති බාධාවක් දක්වයි"
+      },
+      {
+        "img": "/img_sign/22.png",
+        "q": "Dopo il segnale raffigurato possiamo trovare un dispositivo a luci rosse lampeggianti",
+        "a": true,
+        "id": 945,
+        "en": "After the depicted sign, we may find a device with flashing red lights",
+        "sin": "නිරූපිත සංඥාවෙන් පසු, අපට රතු දැල්වෙන විදුලි පහන් සහිත උපාංගයක් සොයාගත හැක"
+      },
+      {
+        "img": "/img_sign/21.png",
+        "q": "Il segnale raffigurato, se a fondo giallo, è posto in presenza di un cantiere che riduce la larghezza della carreggiata",
+        "a": true,
+        "id": 935,
+        "en": "The depicted sign, if with a yellow background, is placed in the presence of a construction site that reduces the width of the roadway",
+        "sin": "නිරූපිත සංඥාව, කහ පසුබිමක් සහිත නම්, මාර්ගයේ පළල අඩු කරන ඉදිකිරීම් ස්ථානයක් පවතින විට තබා ඇත"
+      },
+      {
+        "q": "I tricicli a motore sono veicoli a motore a tre ruote simmetriche",
+        "a": true,
+        "id": 241,
+        "en": "Motor tricycles are motorized vehicles with three symmetrical wheels",
+        "sin": "මෝටර් ට්‍රයිසිකල් යනු සමමිතික රෝද තුනක් සහිත මෝටර් වාහන වේ"
+      }
+    ]
+  },
+  "20260705160545": {
+    "questions": [
+      {
+        "img": "/img_sign/65.png",
+        "q": "Il segnale raffigurato vale, per tutti i veicoli, durante le ore di mercato",
+        "a": false,
+        "id": 1382,
+        "en": "The sign shown is valid, for all vehicles, during market hours.",
+        "sin": "පෙන්වා ඇති සංඥාව, සියලුම වාහන සඳහා, වෙළඳපල වේලාවන්හිදී වලංගු වේ."
+      },
+      {
+        "img": "/img_sign/61.png",
+        "q": "Il segnale raffigurato vieta la circolazione a tutti i veicoli sprovvisti di motore",
+        "a": false,
+        "id": 1337,
+        "en": "The sign shown prohibits the circulation of all non-motorized vehicles.",
+        "sin": "පෙන්වා ඇති සංඥාවෙන් මෝටරයක් නොමැති සියලුම වාහන ධාවනය තහනම් කරයි."
+      },
+      {
+        "img": "/img_sign/54.png",
+        "q": "Il segnale raffigurato vieta il transito agli autocarri",
+        "a": true,
+        "id": 1198,
+        "en": "The sign shown prohibits the transit of lorries.",
+        "sin": "පෙන්වා ඇති සංඥාව මඟින් ලොරි රථ ගමනාගමනය තහනම් කරයි."
+      },
+      {
+        "q": "Il rimorchio si considera parte integrante del veicolo se ha una massa fino a 3,5 tonnellate",
+        "a": false,
+        "id": 5774,
+        "en": "The trailer is considered an integral part of the vehicle if it has a mass of up to 3.5 tons.",
+        "sin": "ට්‍රේලරය වාහනයේ අත්‍යවශ්‍ය කොටසක් ලෙස සලකනු ලබන්නේ එහි ස්කන්ධය ටොන් 3.5 ක් දක්වා නම්ය."
+      },
+      {
+        "q": "Percorrendo lunghe e ripide discese è opportuno marciare con il cambio in folle per risparmiare carburante e freni",
+        "a": false,
+        "id": 6962,
+        "en": "When driving down long and steep descents, it is advisable to drive with the gearbox in neutral to save fuel and brakes.",
+        "sin": "දිගු හා බෑවුම් සහිත බැස්මක් ධාවනය කරන විට, ඉන්ධන සහ තිරිංග ඉතිරි කර ගැනීම සඳහා ගියර් පෙට්ටිය නියුට්‍රල් (නිෂ්ක්‍රීය) තත්ත්වයේ තබාගෙන ධාවනය කිරීම සුදුසුය."
+      }
+    ]
+  },
+  "20260705160933": {
+    "questions": [
+      {
+        "img": "/img_sign/154.png",
+        "q": "Quando è accesa la luce verde del semaforo in figura si deve proseguire diritto",
+        "a": false,
+        "id": 2671,
+        "en": "When the green traffic light shown in the figure is on, you must go straight",
+        "sin": "රූපයේ දැක්වෙන පරිදි කොළ මාර්ග සංඥා ලයිට් එක දැල්වී ඇති විට, ඔබ කෙළින්ම යා යුතුය"
+      },
+      {
+        "q": "Alla guida di un veicolo, in vicinanza di una piazzola di fermata di autobus per scolari, occorre passare per primi, avendo sempre la precedenza sui bambini che attraversano la strada",
+        "a": false,
+        "id": 499,
+        "en": "When driving a vehicle, near a bus stop for schoolchildren, one must pass first, always having priority over children crossing the road",
+        "sin": "වාහනයක් පදවන විට, පාසල් ළමුන් සඳහා බස් නැවතුම්පොළක් අසල, මාර්ගය හරහා යන දරුවන්ට වඩා සෑම විටම ප්‍රමුඛතාවය ඇති බැවින්, පළමුව යා යුතුය"
+      },
+      {
+        "q": "La sosta e la fermata sono vietate in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione",
+        "a": true,
+        "id": 5419,
+        "en": "Parking and stopping are forbidden at horizontal preselection signs and along channeling lanes.",
+        "sin": "තිරස් පූර්ව තේරීම් සලකුණු අසල සහ දිශානති මංතීරු දිගේ රථගාල් කිරීම සහ නැවැත්වීම තහනම්ය."
+      },
+      {
+        "q": "L'assicurazione per la responsabilità civile auto (R.C.A.) copre ogni danno causato, anche se superiore al massimale stabilito",
+        "a": false,
+        "id": 6688,
+        "en": "Car liability insurance (R.C.A.) covers every damage caused, even if it exceeds the established maximum limit.",
+        "sin": "මෝටර් රථ සිවිල් වගකීම් රක්ෂණය (R.C.A.) සිදුවන සෑම හානියක්ම ආවරණය නොකරයි, ස්ථාපිත උපරිම සීමාව ඉක්මවා ගියත්."
+      },
+      {
+        "q": "Bisogna usare maggiore prudenza nei confronti dei conducenti di veicoli adattati per persone diversamente abili",
+        "a": true,
+        "id": 438,
+        "en": "Greater caution must be used towards drivers of vehicles adapted for people with disabilities.",
+        "sin": "ආබාධ සහිත පුද්ගලයන් සඳහා අනුවර්තනය කරන ලද වාහනවල රියදුරන් කෙරෙහි වැඩි සැලකිල්ලක් දැක්විය යුතුය."
+      }
+    ]
+  },
+  "20260705161442": {
+    "questions": [
+      {
+        "img": "/img_sign/115.png",
+        "q": "Il segnale raffigurato vieta il transito delle biciclette condotte a mano",
+        "a": false,
+        "id": 2089,
+        "en": "The sign shown prohibits the passage of bicycles led by hand.",
+        "sin": "පෙන්වා ඇති සංඥාවෙන් අතින් ගෙන යන බයිසිකල් ගමන් කිරීම තහනම් කරයි."
+      },
+      {
+        "img": "/img_sign/84.png",
+        "q": "Il segnale raffigurato permette la sosta dei ciclomotori",
+        "a": false,
+        "id": 1620,
+        "en": "The depicted sign allows mopeds to park.",
+        "sin": "පෙන්වා ඇති සංඥාව මොපෙඩ්වලට නවත්වන්නට ඉඩ දෙයි."
+      },
+      {
+        "img": "/img_sign/119.png",
+        "q": "Il segnale raffigurato indica l'obbligo di arresto ad un posto di blocco stradale istituito dagli organi di polizia",
+        "a": true,
+        "id": 2118,
+        "en": "The depicted sign indicates the obligation to stop at a road checkpoint established by police forces.",
+        "sin": "පෙන්වා ඇති සංඥාවෙන් පොලිස් ආයතන විසින් ස්ථාපිත කරන ලද මාර්ග බාධකයකදී නැවැත්වීමේ අනිවාර්යය බව පෙන්නුම් කරයි."
+      },
+      {
+        "q": "Quando un pedone che spinge una carrozzina per bambini attraversa la carreggiata bisogna tenere presente che, di solito, attraversa rapidamente",
+        "a": false,
+        "id": 527,
+        "en": "When a pedestrian pushing a baby carriage crosses the roadway, it must be kept in mind that they usually cross quickly",
+        "sin": "ළදරු කරත්තයක් තල්ලු කරන පදිකයෙකු මාර්ගය හරහා යන විට, ඔවුන් සාමාන්‍යයෙන් ඉක්මනින් හරස් වන බව මතක තබා ගත යුතුය"
+      },
+      {
+        "q": "Percorrendo una strada extraurbana durante una giornata assolata è sufficiente accendere le luci di posizione",
+        "a": false,
+        "id": 5820,
+        "en": "When driving on an extra-urban road on a sunny day, it is sufficient to switch on the parking lights.",
+        "sin": "හිරු රශ්මිය ඇති දිනක නගරයෙන් පිටත මාර්ගයක රිය පදවන විට, පාර්කින් ලයිට් දැල්වීම ප්‍රමාණවත්ය."
+      }
+    ]
+  },
+  "20260705161831": {
+    "questions": [
+      {
+        "img": "/img_sign/280.png",
+        "q": "Il segnale raffigurato preavvisa un cantiere mobile con strettoia a sinistra",
+        "a": true,
+        "id": 3565,
+        "en": "The sign shown warns of a mobile construction site with a narrowing on the left",
+        "sin": "පෙන්වා ඇති සංඥාව වම් පසින් පටුවීමක් සහිත ජංගම ඉදිකිරීම් ස්ථානයක් ගැන අනතුරු අඟවයි"
+      },
+      {
+        "img": "/img_sign/265.png",
+        "q": "Il segnale raffigurato indica una piazzola di sosta per autobus",
+        "a": false,
+        "id": 3453,
+        "en": "The depicted sign indicates a bus stop area",
+        "sin": "පෙන්වා ඇති සංඥාව බස් රථ නවත්වන ස්ථානයක් දක්වයි"
+      },
+      {
+        "img": "/img_sign/292.png",
+        "q": "Il delineatore raffigurato è posto al centro della carreggiata",
+        "a": false,
+        "id": 3636,
+        "en": "The depicted delineator is placed in the center of the carriageway.",
+        "sin": "පෙන්වා ඇති සීමා සලකුණ (delineator) කරත්ත මාර්ගයේ මැද තබා ඇත."
+      },
+      {
+        "q": "Fuori dei centri abitati, la sosta e la fermata sono vietate in corrispondenza e in prossimità delle aree di intersezione",
+        "a": true,
+        "id": 5420,
+        "en": "Outside urban areas, parking and stopping are forbidden at and near intersection areas.",
+        "sin": "ජනාවාස ප්‍රදේශවලින් පිටත, මංසන්ධි ප්‍රදේශවල සහ ඒවා අසල රථගාල් කිරීම සහ නැවැත්වීම තහනම්ය."
+      },
+      {
+        "q": "Quando si vede sul tetto dell'auto della polizia un display con la scritta luminosa \"INCIDENTE\", bisogna diminuire la velocità",
+        "a": true,
+        "id": 4645,
+        "en": "When you see a display on the roof of a police car with the luminous writing \"INCIDENTE\" (ACCIDENT), you must reduce speed.",
+        "sin": "පොලිස් මෝටර් රථයක වහලය මත \"INCIDENTE\" (අනතුර) යනුවෙන් ආලෝකමත් අකුරු සහිත සංදර්ශකයක් දුටු විට, ඔබ වේගය අඩු කළ යුතුය."
+      }
+    ]
+  },
+  "20260705162007": {
+    "questions": [
+      {
+        "img": "/img_sign/22.png",
+        "q": "Il segnale raffigurato impone di dare la precedenza ai veicoli provenienti dal senso opposto",
+        "a": false,
+        "id": 951,
+        "en": "The depicted sign requires giving way to vehicles coming from the opposite direction",
+        "sin": "පෙන්වා ඇති සංඥාව ප්‍රතිවිරුද්ධ දිශාවෙන් පැමිණෙන වාහනවලට ප්‍රමුඛතාවය දෙන ලෙස නියම කරයි"
+      },
+      {
+        "img": "/img_sign/289.png",
+        "q": "I delineatori raffigurati sono visibili solo di notte",
+        "a": false,
+        "id": 3611,
+        "en": "The depicted delineators are only visible at night.",
+        "sin": "පෙන්වා ඇති සීමා සලකුණු (delineators) දකින්නට ලැබෙන්නේ රාත්‍රියේ පමණි."
+      },
+      {
+        "img": "/img_sign/29.png",
+        "q": "Il segnale raffigurato preannuncia una strada senza uscita, per cui bisogna tornare indietro",
+        "a": false,
+        "id": 1154,
+        "en": "The sign shown indicates a dead-end street, so you must turn back.",
+        "sin": "පෙන්වා ඇති සංඥාව මගින් අවහිර වූ මාර්ගයක් පෙන්නුම් කරයි, එබැවින් ඔබ ආපසු හැරී යා යුතුය."
+      },
+      {
+        "img": "/img_sign/153.png",
+        "q": "Il segnale raffigurato indica l'inizio di una strada a senso unico",
+        "a": true,
+        "id": 2967,
+        "en": "The depicted sign indicates the beginning of a one-way street",
+        "sin": "පෙන්වා ඇති සංඥාව ඒක දිශා මාර්ගයක ආරම්භය දක්වයි"
+      },
+      {
+        "q": "E' consentito spostare i segnali stradali verticali temporanei per parcheggiare il veicolo",
+        "a": false,
+        "id": 403,
+        "en": "It is permitted to move temporary vertical road signs to park the vehicle.",
+        "sin": "වාහනය නවතා තැබීම සඳහා තාවකාලික සිරස් මාර්ග සංඥා ගෙන යාමට අවසර ඇත."
+      }
+    ]
+  },
+  "20260705162152": {
+    "questions": [
+      {
+        "img": "/img_sign/660.png",
+        "q": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: H, D, B",
+        "a": true,
+        "id": 5097,
+        "en": "In the intersection shown, vehicles clear the intersection in the following order: H, D, B",
+        "sin": "රූපයේ දැක්වෙන මංසන්ධියේදී, වාහන පහත අනුපිළිවෙලින් මංසන්ධිය හිස් කරයි: H, D, B"
+      },
+      {
+        "img": "/img_sign/644.png",
+        "q": "Giungendo all'incrocio rappresentato in figura il veicolo P deve attendere che siano transitati gli altri tre veicoli",
+        "a": false,
+        "id": 5111,
+        "en": "Arriving at the intersection shown in the figure, vehicle P must wait for the other three vehicles to pass.",
+        "sin": "රූපයේ දැක්වෙන මංසන්ධියට පැමිණෙන විට, P වාහනය අනෙකුත් වාහන තුන ගමන් කරන තෙක් බලා සිටිය යුතුය."
+      },
+      {
+        "img": "/img_sign/614.png",
+        "q": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: R, A, T",
+        "a": true,
+        "id": 5034,
+        "en": "In the intersection shown in the figure, the vehicles pass in the order: R, A, T.",
+        "sin": "රූපයේ දැක්වෙන මංසන්ධියේ, වාහන ගමන් කරන්නේ R, A, T යන අනුපිළිවෙලටය."
+      },
+      {
+        "img": "/img_sign/99.png",
+        "q": "Il segnale raffigurato indica il prossimo inizio di una corsia supplementare riservata ai veicoli lenti",
+        "a": false,
+        "id": 1879,
+        "en": "The sign shown indicates the imminent beginning of an additional lane reserved for slow vehicles.",
+        "sin": "පෙන්වා ඇති සංඥාව මන්දගාමී වාහන සඳහා වෙන් කර ඇති අමතර මංතීරුවක ආසන්න ආරම්භය පෙන්නුම් කරයි."
+      },
+      {
+        "q": "L'uso corretto della strada comporta che i veicoli impegnino sempre la carreggiata il più rapidamente possibile",
+        "a": false,
+        "id": 4391,
+        "en": "Correct use of the road implies that vehicles always occupy the roadway as quickly as possible.",
+        "sin": "මාර්ගයේ නිවැරදි භාවිතය යනු වාහන සෑම විටම හැකි ඉක්මනින් මාර්ගය අත්පත් කර ගත යුතු බවයි."
+      }
+    ]
+  },
+  "20260705162409": {
+    "questions": [
+      {
+        "img": "/img_sign/142.png",
+        "q": "Il pannello integrativo in figura indica la fine del segnale LIMITE MASSIMO DI VELOCITA'",
+        "a": false,
+        "id": 3911,
+        "en": "The supplementary panel in the figure indicates the end of the MAXIMUM SPEED LIMIT sign.",
+        "sin": "රූපයේ ඇති අතිරේක පුවරුවෙන් දැක්වෙන්නේ උපරිම වේග සීමාව (MAXIMUM SPEED LIMIT) සලකුණ අවසන් වන බවයි."
+      },
+      {
+        "img": "/img_sign/16.png",
+        "q": "In presenza del segnale raffigurato bisogna comportarsi in modo da non costituire pericolo o intralcio per i ciclisti",
+        "a": true,
+        "id": 857,
+        "en": "In the presence of the depicted sign, one must behave so as not to pose a danger or hindrance to cyclists.",
+        "sin": "පෙන්වා ඇති සංඥාව ඉදිරියේදී, පාපැදි කරුවන්ට අනතුරක් හෝ බාධාවක් නොවන පරිදි හැසිරිය යුතුය."
+      },
+      {
+        "img": "/img_sign/567.png",
+        "q": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova prima di un incrocio",
+        "a": true,
+        "id": 2458,
+        "en": "Compared to the vehicle moving in the direction of the arrow, the continuous central line in the figure is located before an intersection",
+        "sin": "ඊතලයේ දිශාවට ගමන් කරන වාහනයට සාපේක්ෂව, රූපයේ ඇති අඛණ්ඩ මධ්‍ය රේඛාව මංසන්ධියකට පෙර පිහිටා ඇත"
+      },
+      {
+        "q": "La forza aderente si oppone allo slittamento dello pneumatico sull'asfalto",
+        "a": true,
+        "id": 6858,
+        "en": "The grip force opposes the tire skidding on the asphalt.",
+        "sin": "ග්‍රහණ බලය තාර පාර මත ටයර් ලිස්සා යාම වළක්වයි."
+      },
+      {
+        "q": "Le strade extraurbane principali sono segnalate da cartelli stradali di inizio e fine",
+        "a": true,
+        "id": 40,
+        "en": "Main extra-urban roads are indicated by start and end road signs.",
+        "sin": "ප්‍රධාන නගරාන්තර මාර්ග ආරම්භක සහ අවසාන මාර්ග සංඥා පුවරු මගින් සලකුණු කර ඇත."
+      }
+    ]
+  },
+  "20260705162732": {
+    "questions": [
+      {
+        "img": "/img_sign/199.png",
+        "q": "Il segnale raffigurato è posto su strade di importanza internazionale",
+        "a": true,
+        "id": 2918,
+        "en": "The depicted sign is placed on roads of international importance",
+        "sin": "නිරූපිත සංඥාව ජාත්‍යන්තර වශයෙන් වැදගත් මාර්ගවල ස්ථාපනය කර ඇත"
+      },
+      {
+        "img": "/img_sign/137.png",
+        "q": "Il pannello integrativo raffigurato indica che sulla corsia possono esserci pale meccaniche al lavoro",
+        "a": true,
+        "id": 3848,
+        "en": "The supplementary panel shown indicates that mechanical shovels may be working on the lane",
+        "sin": "පෙන්වා ඇති අතිරේක පුවරුවෙන් මංතීරුවේ යාන්ත්‍රික සවල් (mechanical shovels) ක්‍රියාත්මක විය හැකි බව පෙන්නුම් කරයි"
+      },
+      {
+        "img": "/img_sign/56.png",
+        "q": "Il segnale raffigurato vieta ad un motociclo di sorpassare una bicicletta",
+        "a": false,
+        "id": 1248,
+        "en": "The depicted sign prohibits a motorcycle from overtaking a bicycle.",
+        "sin": "නිරූපිත සංඥාවෙන් යතුරුපැදියකට බයිසිකලයක් අභිබවා යාම තහනම් කරයි."
+      },
+      {
+        "q": "Se un infortunato della strada ha riportato fratture agli arti, bisogna bloccarglieli e subito dopo, se necessario, attuare le normali misure anti-shock",
+        "a": true,
+        "id": 6558,
+        "en": "If a road accident victim has sustained limb fractures, they should be immobilized and immediately after, if necessary, normal anti-shock measures should be implemented.",
+        "sin": "මාර්ග අනතුරකට ලක්වූවෙකුට අත් පා වල අස්ථි බිඳීම් සිදුවී ඇත්නම්, ඒවා ස්ථාවර කළ යුතු අතර වහාම, අවශ්‍ය නම්, සාමාන්‍ය කම්පන-විරෝධී ක්‍රියාමාර්ග ගත යුතුය."
+      },
+      {
+        "q": "In caso di pioggia occorre aumentare la distanza di sicurezza",
+        "a": true,
+        "id": 6375,
+        "en": "In case of rain, it is necessary to increase the safety distance.",
+        "sin": "වර්ෂා කාලයේදී ආරක්ෂිත දුර වැඩි කිරීම අවශ්‍ය වේ."
+      }
+    ]
+  },
+  "20260705163204": {
+    "questions": [
+      {
+        "img": "/img_sign/445.png",
+        "q": "Le strisce gialle diagonali in figura devono essere lasciate libere per consentire l'entrata e l'uscita dal veicolo delle persone invalide",
+        "a": true,
+        "id": 2608,
+        "en": "The yellow diagonal stripes in the figure must be left clear to allow disabled persons to enter and exit the vehicle.",
+        "sin": "රූපයේ ඇති කහ විකර්ණ ඉරි, ආබාධිත පුද්ගලයන්ට වාහනයට ඇතුළු වීමට හා පිටවීමට ඉඩ සැලසීම සඳහා හිස්ව තැබිය යුතුය."
+      },
+      {
+        "img": "/img_sign/302.png",
+        "q": "Il pannello raffigurato deve essere retroriflettente",
+        "a": true,
+        "id": 5737,
+        "en": "The panel shown must be retroreflective.",
+        "sin": "රූපයේ දැක්වෙන පුවරුව ප්‍රතිවර්තක විය යුතුය."
+      },
+      {
+        "img": "/img_sign/617.png",
+        "q": "Nell'incrocio rappresentato nella figura il veicolo N deve dare la precedenza al veicolo A",
+        "a": true,
+        "id": 4989,
+        "en": "In the intersection shown in the figure, vehicle N must give way to vehicle A.",
+        "sin": "රූපයේ දැක්වෙන මංසන්ධියේදී, N වාහනය A වාහනයට ඉඩ දිය යුතුය."
+      },
+      {
+        "q": "Le cinture di sicurezza hanno lo scopo di evitare che il conducente o i passeggeri vadano a urtare parti interne del veicolo in caso di urto violento",
+        "a": true,
+        "id": 6020,
+        "en": "Seatbelts are intended to prevent the driver or passengers from hitting internal parts of the vehicle in the event of a violent impact.",
+        "sin": "ආසන පටිවල අරමුණ වන්නේ දරුණු ගැටීමකදී රියදුරුට හෝ මගීන්ට වාහනයේ අභ්‍යන්තර කොටස්වල ගැටීම වැළැක්වීමයි."
+      },
+      {
+        "q": "I montanti interni degli autoveicoli riducono la possibilità di vedere un ciclista o un motociclista",
+        "a": true,
+        "id": 427,
+        "en": "The internal pillars of motor vehicles reduce the ability to see a cyclist or motorcyclist.",
+        "sin": "මෝටර් වාහනවල අභ්‍යන්තර කණු පාපැදිකරුවෙකු හෝ යතුරුපැදිකරුවෙකු දැකීමේ හැකියාව අඩු කරයි."
+      }
+    ]
+  },
+  "20260705163258": {
+    "questions": [
+      {
+        "img": "/img_sign/48.png",
+        "q": "In presenza del segnale raffigurato bisogna usare prudenza perché ci si sta avvicinando ad un incrocio",
+        "a": true,
+        "id": 2301,
+        "en": "In the presence of the depicted sign, one must use caution because one is approaching an intersection.",
+        "sin": "පෙන්වා ඇති සංඥාව ඉදිරියේදී, මංසන්ධියකට ළං වන බැවින් ප්‍රවේශම් විය යුතුය."
+      },
+      {
+        "img": "/img_sign/114.png",
+        "q": "Il segnale raffigurato è posto in corrispondenza della fine della pista ciclabile accanto al marciapiede",
+        "a": true,
+        "id": 2076,
+        "en": "The sign shown is placed at the end of the cycle path next to the sidewalk.",
+        "sin": "පෙන්වා ඇති සංඥාව පදික වේදිකාව අසල පාපැදි මාවතේ අවසානයේ තබා ඇත."
+      },
+      {
+        "img": "/img_sign/69.png",
+        "q": "In presenza del segnale raffigurato è consentito il transito ai veicoli adibiti al trasporto di cose con massa complessiva pari o inferiore a quella indicata nel segnale",
+        "a": true,
+        "id": 1421,
+        "en": "In the presence of the depicted sign, the transit of goods vehicles with a total mass equal to or less than that indicated on the sign is permitted.",
+        "sin": "නිරූපිත සංඥාව ඉදිරිපිට, සංඥාවේ දක්වා ඇති සම්පූර්ණ බරට සමාන හෝ ඊට අඩු බරක් සහිත භාණ්ඩ ප්‍රවාහනය කරන වාහනවලට ගමන් කිරීමට අවසර ඇත."
+      },
+      {
+        "img": "/img_sign/105.png",
+        "q": "Il segnale raffigurato consente di marciare ad una velocità superiore a 30 km/h, senza alcun limite",
+        "a": false,
+        "id": 1989,
+        "en": "The sign shown allows driving at a speed higher than 30 km/h, without any limit",
+        "sin": "පෙන්වා ඇති සංඥාවෙන් කිසිදු සීමාවකින් තොරව 30 km/h ට වැඩි වේගයකින් ධාවනය කිරීමට ඉඩ සලසයි"
+      },
+      {
+        "q": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in corrispondenza dei passi carrabili",
+        "a": false,
+        "id": 4002,
+        "en": "It is mandatory to reduce speed and stop if necessary at driveways.",
+        "sin": "වාහන ඇතුළු වන මාර්ග (driveways) අසල වේගය අඩු කිරීම සහ අවශ්‍ය නම් නැවැත්වීම අනිවාර්ය වේ."
+      }
+    ]
+  },
+  "20260705163350": {
+    "questions": [
+      {
+        "img": "/img_sign/650.png",
+        "q": "Nell'incrocio rappresentato nella figura il conducente del veicolo E deve dare la precedenza al veicolo proveniente dalla sua destra",
+        "a": true,
+        "id": 4964,
+        "en": "In the intersection shown in the figure, the driver of vehicle E must give way to the vehicle coming from his right.",
+        "sin": "රූපයේ දැක්වෙන මංසන්ධියේදී, E වාහනයේ රියදුරු තමාගේ දකුණු පසින් එන වාහනයට ඉඩ දිය යුතුය."
+      },
+      {
+        "img": "/img_sign/146.png",
+        "q": "I pannelli integrativi in figura posti in vicinanza di una intersezione, indicano l'andamento della strada principale",
+        "a": true,
+        "id": 3934,
+        "en": "The supplementary panels in the figure, placed near an intersection, indicate the direction of the main road.",
+        "sin": "රූපයේ ඇති අතිරේක පුවරු, මංසන්ධියක් ආසන්නයේ තබා ඇති අතර, ප්‍රධාන මාර්ගයේ දිශාව දක්වයි."
+      },
+      {
+        "img": "/img_sign/289.png",
+        "q": "I delineatori raffigurati si trovano prima di un attraversamento pedonale",
+        "a": false,
+        "id": 3607,
+        "en": "The depicted delineators are found before a pedestrian crossing.",
+        "sin": "පෙන්වා ඇති සීමා සලකුණු (delineators) පදික මාරුවකට පෙර දක්නට ලැබේ."
+      },
+      {
+        "q": "La sosta è vietata negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia",
+        "a": true,
+        "id": 5432,
+        "en": "Parking is forbidden in spaces reserved for the stopping and stopping of buses, trolleybuses, and rail vehicles.",
+        "sin": "බස් රථ, ට්‍රොලි බස් රථ සහ දුම්රිය වාහන නැවැත්වීම සඳහා වෙන් කර ඇති ස්ථානවල රථගාල් කිරීම තහනම්ය."
+      },
+      {
+        "q": "Bisogna usare maggiore prudenza nei confronti dei conducenti di tricicli a motore",
+        "a": false,
+        "id": 443,
+        "en": "Greater caution must be used towards drivers of motorized tricycles.",
+        "sin": "මෝටර් ත්‍රිරෝද රථවල රියදුරන් කෙරෙහි වැඩි සැලකිල්ලක් දැක්විය යුතුය."
+      }
+    ]
+  },
+  "20260705163739": {
+    "questions": [
+      {
+        "img": "/img_sign/103.png",
+        "q": "Il segnale raffigurato è un segnale di divieto",
+        "a": false,
+        "id": 1955,
+        "en": "The sign shown is a prohibition sign",
+        "sin": "පෙන්වා ඇති සංඥාව තහනම් සංඥාවකි"
+      },
+      {
+        "img": "/img_sign/184.png",
+        "q": "Il segnale raffigurato indica i chilometri già fatti dalle località indicate",
+        "a": false,
+        "id": 2914,
+        "en": "The depicted sign indicates the kilometers already traveled from the indicated localities",
+        "sin": "නිරූපිත සංඥාවෙන් දැක්වෙන්නේ සඳහන් කර ඇති ස්ථානවල සිට දැනටමත් ගමන් කර ඇති කිලෝමීටර ගණනයි"
+      },
+      {
+        "q": "La limitata visuale offerta dal parabrezza degli autocarri nella zona immediatamente antistante il veicolo rende pericolosa la fermata di tali mezzi in colonna, qualora siano presenti pedoni o mezzi a due ruote",
+        "a": true,
+        "id": 5682,
+        "en": "The limited view offered by truck windshields in the area immediately in front of the vehicle makes it dangerous for such vehicles to stop in a queue if pedestrians or two-wheeled vehicles are present.",
+        "sin": "වාහනය ඉදිරිපස ප්‍රදේශයේ ට්‍රක් රථ සුළං ආවරණ මගින් ලබා දෙන සීමිත දසුන, පදිකයින් හෝ රෝද දෙකේ වාහන සිටී නම්, එවැනි වාහන පෝලිමක නතර කිරීම භයානක කරයි."
+      },
+      {
+        "q": "Durante la sosta è opportuno che il conducente azioni il freno di stazionamento ed inserisca il rapporto più basso del cambio di velocità",
+        "a": true,
+        "id": 5380,
+        "en": "During parking, it is advisable for the driver to apply the parking brake and engage the lowest gear.",
+        "sin": "වාහන නැවැත්වීමේදී, රියදුරු වාහන නැවැත්වීමේ තිරිංග යොදා, වේග ගියරයේ පහළම අනුපාතය සම්බන්ධ කිරීම සුදුසුය."
+      },
+      {
+        "q": "Prima di iniziare a guidare un veicolo, bisogna essere certi del perfetto stato di efficienza del mezzo",
+        "a": true,
+        "id": 5311,
+        "en": "Before starting to drive a vehicle, one must be sure of the perfect working condition of the vehicle.",
+        "sin": "වාහනයක් පැදවීමට පෙර, වාහනයේ පරිපූර්ණ ක්‍රියාකාරී තත්ත්වය පිළිබඳව සහතික විය යුතුය."
+      }
+    ]
   }
 }
